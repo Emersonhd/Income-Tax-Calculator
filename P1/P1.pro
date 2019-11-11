@@ -4,10 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    sf.cpp \
-    boostutf.cpp
+    boostutf.cpp \
+    stub.cpp
 
 HEADERS += \
     hf.h
 
 LIBS += -lboost_unit_test_framework
+
+DISTFILES +=
