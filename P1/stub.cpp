@@ -1,5 +1,4 @@
 
-void calculateTax(){
-    return 0;
-
+int  calculateTax(int x){
+        return 0;
 }
